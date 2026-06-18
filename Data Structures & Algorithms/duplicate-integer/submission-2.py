@@ -7,3 +7,6 @@ class Solution:
                 return True;
             hashset.add(n)
          return False
+
+#Time complexity: O(n)
+#Space complexity: O(n)
