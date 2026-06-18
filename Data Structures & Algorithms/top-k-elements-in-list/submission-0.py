@@ -14,3 +14,7 @@ class Solution:
                 res.append(n)
                 if len(res) == k:
                     return res
+
+
+#O(n) - iterate through array to insert into map (O(n)), + inserting into array of lists (O(m)), O(n + m) = O(n)
+#O(n) - same ^
