@@ -9,3 +9,6 @@ class Solution:
             result[tuple(count)].append(s)
 
         return list(result.values())
+
+O(n*m)    #as number of input (strings) grows, inner loop (characters in strings) stays the same 
+O(n*m)    #n - need extra memory for each input. m - inputs are strings, amount of memory depends on how long string is
