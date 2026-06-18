@@ -10,3 +10,6 @@ class Solution:
             if countS[c] != countT.get(c, 0):
                 return False
         return True
+
+#Time complexity: O(n)
+#Space complexity: O(n) - can be O(1) if you sort, but would negatively affect Time complexity
